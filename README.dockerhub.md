@@ -2,7 +2,7 @@
 
 Imagem Docker para facilitar a configuração de aplicações SPA
 
-Veja mais em [hub.docker.com/r/tmvdl/spa-server](https://hub.docker.com/r/tmvdl/spa-server)
+Veja mais em [github.com/tmvdl/docker-spa-server](https://github.com/tmvdl/docker-spa-server)
 
 ## Como usar
 
