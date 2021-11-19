@@ -43,4 +43,4 @@ docker run --name tmvdl-spa-server tmvdl/spa-server
 
 ## Update
 
-Atualizado em 27/09/2021
+Atualizado em 18/11/2021
