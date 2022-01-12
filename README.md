@@ -34,8 +34,10 @@ docker-compose up --build
 1. Executar como container do Docker
 
 ```sh
-docker run --name tmvdl-spa-server tmvdl/spa-server
+docker run -p 1220:80 tmvdl/spa-server
 ```
+
+2. Abrir `localhost:1220` no browser
 
 ## License
 
