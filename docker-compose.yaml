@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+
+  latest:
+    image: 'tmvdl/spa:latest'
+    build: './src/latest'
