@@ -1,0 +1,25 @@
+name: Docker Push
+
+on:
+  schedule:
+    - cron: '50 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v1 
+        with:
+          username: tmvdl
+          password: ${{ secrets.GITHUBDOCKER }}
+
+      - name: Build Docker images
+        run: docker-compose build 
+
+      - name: Push images to Docker Hub
+        run: docker pull tmvdl/spa
