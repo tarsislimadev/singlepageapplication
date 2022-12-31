@@ -25,4 +25,4 @@ jobs:
         run: docker-compose build 
 
       - name: Push images to Docker Hub
-        run: docker pull tmvdl/spa
+        run: docker push tmvdl/spa
