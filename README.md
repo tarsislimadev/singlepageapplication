@@ -1,5 +1,7 @@
 # Docker SPA
 
+[![github/actions/workflow/status](https://img.shields.io/github/actions/workflow/status/brtmvdl/docker-spa/docker-push.yml)](https://img.shields.io/github/actions/workflow/status/brtmvdl/docker-spa/docker-push.yml) [![github/license](https://img.shields.io/github/license/brtmvdl/docker-spa)](https://img.shields.io/github/license/brtmvdl/docker-spa) [![github/stars](https://img.shields.io/github/stars/brtmvdl/docker-spa?style=social)](https://img.shields.io/github/stars/brtmvdl/antify?style=social)
+
 Imagem Docker para facilitar a configuração de aplicações SPA
 
 Veja mais em [hub.docker.com/r/tmvdl/spa](https://hub.docker.com/r/tmvdl/spa)
