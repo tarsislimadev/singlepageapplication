@@ -3,5 +3,5 @@ version: '3'
 services:
 
   latest:
-    image: 'tmvdl/spa:latest'
+    image: 'tmvdl/projects:spa'
     build: './src/latest'
